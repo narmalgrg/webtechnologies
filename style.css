@@ -1,0 +1,22 @@
+*{
+    margin: 9px;
+    border: red;
+    padding: 6; 
+    box-sizing: border-box;
+    background-color: red;
+
+}
+body{
+    width: 80w;
+    background-image:rgb(255, 0, 21);
+    color:blue;
+}
+header{
+    position: relative;
+    float:top ;
+}
+h1{
+    text-transform: uppercase;
+    font: size 45px; 
+    text-align: center;
+}
