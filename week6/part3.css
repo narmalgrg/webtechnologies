@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Open+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Andika', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-color: rgb(255, 238, 0);
+    height: 100vh;
+}
+.main h1{
+    padding:30px;
+    background-color: rgb(255, 186, 0);
+}
+.main h1{
+    text-align: center;
+    text-transform: capitalize ;
+    font-size: 3em;
+}
+
+.text{
+    text-align:center;
+}
+
+.flex-item h2{
+    font-size:25px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    margin-right: 50px;
+}
+.flex-item img{
+    width: 200px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+.flex-item h4{
+    font-weight: bold;
+
+}
+
+@media(max-width:900px){
+        .main{
+            height: auto;
+        }
+
+}
+
+@media(max-width:600px){
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
