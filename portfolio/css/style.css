@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: aliceblue;
+}
+
+#wrapper{
+   height: 100vh;
+   width: 100%;
+    background-image: url(../images/profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page-overly{
+    background: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+.header-section{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+}
+.header-section ul{
+    float: right;
+}
+.header-section ul li {
+    float: left;
+    margin: 15px;
+    list-style: none;
+}
+.header-section ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
