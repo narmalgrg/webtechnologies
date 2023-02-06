@@ -6,31 +6,38 @@
 }
 body{
     background: darkgreen;
-    color: Navy ;
+    color: skyblue ;
 }
 .container-top{
     height: 100vh;
     width: 100%;
-    background-image: url(../images/profile.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background: black;
+    
 }
-#about-me, #gallery, #contact{
+#about-me, #gallery, #education, #contact,  #references{
     height: 100vh;
 }
 #about-me{
-    background:  pink;
+    background:  palevioletred;
 }
 #gallery{
-    background: pink;
+    background:  palevioletred;
+}
+#education{
+    background: palevioletred;
+}
+#contact{
+    background: palevioletred;
 }
 
-#contact{
-    background: pink;
+#references{
+    background: palevioletred;
 }
 .page-overly{
-    background: rgba(0,0,0,0.5);
+    background: palevioletred;
     height: 100vh;
 }
 .header-section{
@@ -52,7 +59,7 @@ body{
     text-decoration: none;
 }
 .header-section ul li a:hover{
-    color: navy;
+    color: rgb(31, 8, 12);
 }
 .footer-section{
     position: fixed;
@@ -66,7 +73,12 @@ body{
     
     width: 100%;
     text-align: left;
-    color: white;
+    color: skyblue;
     text-align:start;
+    margin-right: 50px;
+}
+.image{
+    width: 40%;
+    margin-right: 50px;
 
 }
