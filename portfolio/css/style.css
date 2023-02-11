@@ -166,6 +166,14 @@ height: 100vh;
 .education{
     height: 100vh;
 }
+.edu-img{
+    width: 100%;
+}
+.education-list{
+    float: left;
+    width: 33.333%;
+    text-align: center;
+}
 
 
 .container1{
