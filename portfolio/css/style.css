@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: palevioletred;
+    background: black;
     color: skyblue ;
 }
 .container-top{
@@ -115,6 +115,23 @@ height: 100vh;
     text-align: center;
     padding: 100px;
 }
+.about-container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+
+.image-section1{
+    float: right;
+    width: 40%;
+}
+.image-section1 img{
+    width: 50%;
+    height: auto;
+
+}
 .gallery-container{
     display: block;
 }
@@ -149,30 +166,95 @@ height: 100vh;
 .education{
     height: 100vh;
 }
-.input[type=text]{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+
+
+.container1{
+  width: 80%;
+  margin: 50px auto; 
 }
-.input[type=submit]{
-    background-color: blueviolet;
-    color: aliceblue;
-    padding: 12px ;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.contact-box{
+  background: #fff; 
+  display: flex; 
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
 
 }
-.input[type=submit]:hover{
-    background-color: blue;
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background:#1c00b5;
+    color:#fff;
+   
 }
-.container1{
-  border-radius: 5px;
-  background-color: black;
-  padding: 20px;  
+.img-section {
+    display: flex;
+    width: 100%;
+    padding-top: 0px;
+    justify-content: center;
+    border:5px solid black;
+      }         
+     .heading {
+       height: 20px;
+       width: 100%;
+     }
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3) ;
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;  
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
 }
